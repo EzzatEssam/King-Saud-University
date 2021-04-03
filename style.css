@@ -1,0 +1,1112 @@
+/* 
+    Fonts 
+
+        'Cairo', sans-serif;
+        'Tajawal', sans-serif;
+        'Amiri', serif;
+*/ 
+
+*
+{
+    padding:0px;
+    margin:0px;
+    font-family:"Roboto", sans-serif;
+}
+body
+{
+    height: 3800px;
+}
+/* Section 1 Start*/
+.background 
+{
+
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.10)) ,url("ksuMainHall2.jpg");
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;       
+    height:100vh;
+    position: relative;
+}
+
+nav  img 
+{
+   position:absolute;
+    top:4%;
+    right:6%;
+    height:70px;
+}
+
+nav ul
+{
+    position: absolute;
+    top:6%;
+    right:35%;
+}
+
+nav ul li 
+{
+
+    display: inline-block;
+    list-style:none;
+    padding:10px 10px 10px 20px;
+}
+
+nav ul li a 
+{
+    text-decoration: none;
+    color:lightgray;
+    font-family: 'Cairo', sans-serif;
+    font-size:12px;
+}
+nav ul li a:hover
+{
+    color:white;
+}
+
+
+/* Section 1 End*/
+
+/* Section 2 Start*/
+.background2-active
+{
+    background-color:#181818;
+    width:1499px;
+    height:500px;
+    transition:all 1.2s ease;
+    padding-left:10px;
+    padding-bottom:10px;
+    padding-top:10px;
+    padding-right:10px;
+}
+.content h1
+{
+    text-align:center;
+    padding-top:90px;
+    padding-right:20px;
+    padding-left:20px;
+    padding-bottom:20px;
+    color: #FF5E3E;
+    font-size:40px;
+    font-family: 'Tajawal', sans-serif;
+}
+.content p 
+{
+    font-family: 'Cairo', sans-serif;
+    color:#FFFFFF;
+    padding-top:0px;
+    padding-right:40px;
+    padding-bottom:50px;
+    padding-left:50px;
+    line-height:29px;
+    text-align:center;
+    font-size:20px;
+    text-indent:2%;
+    direction:rtl;
+    word-spacing:3px;
+
+}
+content button 
+{
+   
+    margin-top:50px;
+    margin-left:43%;
+    background-color:#2C8182; 
+    width:230px;
+    height:50px;
+    border: 1px solid #00CCCC;
+    font-size:15px;
+    font-family: 'Tajawal', sans-serif;
+    color:white;
+    cursor: pointer;
+}
+.content button:hover
+{
+background-color:#007375;
+}
+
+.bg2-opacity
+{
+    background-color:#333333;
+    transition:all 1000ms ease;
+}
+
+/* Section 2 End*/
+
+
+
+/* Section 3 Start*/
+
+.background3-active
+{
+
+    background-color:#2e2e2e;
+    width:1499px;
+    height:650px;
+    transition:all 1000ms ease;
+    padding-left:10px;
+    padding-bottom:10px;
+    padding-top:10px;
+    padding-right:10px;
+    
+}
+
+
+.bg3-opacity
+{
+    background-color:#131313;
+    transition:all 1s ease;
+}
+
+.content3 h2 
+{
+    text-align:center;
+    padding-top:90px;
+    padding-right:20px;
+    padding-left:20px;
+    padding-bottom:20px;
+    color: #FF5E3E;
+    font-family:'Tajwal', sans-serif;
+    font-size:40px;
+    
+}
+
+.fNew
+{
+    float:right;
+    position:relative;
+    right:10%;
+    background-color:#2e2e2e;
+    width:300px;
+    height:455px;
+    transform: 300ms cubic-bezier(0.34,2,0.6,1),box-shadow 200ms ease;
+    border-radius:12px;
+}
+.fNew img 
+{
+    height:150px;
+    width:300px;
+    border-radius:12px;
+}
+.fNew .par1 
+{
+    color:#bdbdbd;
+    direction:rtl;
+    font-size:23px;
+    font-family:'Amiri', serif;
+}
+.fNew .par2
+{
+    color: #979797;
+    direction:rtl;
+    font-size:16px;
+    font-family:'Amiri', serif; ;
+}
+.fNew .hr
+{
+    width:95%;
+    margin:0 auto;
+    background:burlywood;
+}
+.fNew .par3 
+{
+    float:left;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:15px;
+    font-size:12px;
+    font-family:'Tajwal', sans-serif;
+    color:#bdb8b8;
+}
+.fNew .timeIcon
+{
+    width:15px;
+    height:15px;
+    padding-top:15px;
+    padding-right:60px;
+    padding-left:6px;
+}
+.sNew
+{
+    float:right;
+    position:relative;
+    right:20%;
+    background-color:#2e2e2e;
+    width:300px;
+    height:455px;
+    border-radius:12px;
+}
+.sNew img 
+{
+    height:150px;
+    width:300px;
+    border-radius:12px;
+
+}
+.sNew .par1
+{
+    color:#bdbdbd;
+    direction:rtl;
+    font-size:23px;
+    font-family:'Amiri', serif;
+}
+.sNew .par2
+{
+    color: #979797;
+    direction:rtl;
+    font-size:16px;
+    font-family:'Amiri', serif; 
+}
+.sNew hr
+
+{
+    width:95%;
+    margin:0 auto;
+    background:burlywood;
+}
+.sNew .par3 
+{
+    float:left;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:15px;
+    font-size:12px;
+    font-family:'Tajwal', sans-serif;
+    color:#bdb8b8;
+}
+.sNew .timeIcon
+{
+    width:15px;
+    height:15px;
+    padding-top:15px;
+    padding-right:60px;
+    padding-left:6px;
+}
+.tNew
+{
+    float:right;
+    position:relative;
+    right:30%;
+    background-color:#2e2e2e;
+    width:300px;
+    height:455px;
+    border-radius:12px;
+}
+.tNew img 
+{
+    height:150px;
+    width:300px;
+    opacity:70%;
+    border-radius:12px;
+}
+.tNew .par1 
+{
+
+    color:#bdbdbd;
+    direction:rtl;
+    font-size:24px;
+    font-family:'Amiri', serif;
+}
+.tNew .par2 
+{
+    color: #979797;
+    direction:rtl;
+    font-size:16px;
+    font-family:'Amiri', serif; 
+} 
+.tNew hr 
+{
+    background:burlywood;
+    width:95%;
+    margin:0 auto;
+}
+.tNew .par3 
+{
+    float:left;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:15px;
+    font-size:12px;
+    font-family:'Tajwal', sans-serif;
+    color:#bdb8b8;
+}
+.tNew .timeIcon
+{
+    width:15px;
+    height:15px;
+    padding-top:15px;
+    padding-right:60px;
+    padding-left:6px;
+    opacity:100%;
+}
+
+/* Section 3 End*/
+
+/* Section 4 Start */
+.background4 
+{
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.10)) ,url("ksuservic.png");
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;       
+    height:150vh;
+}
+.content4 h1 
+{
+    text-align:center;
+    padding-top:90px;
+    padding-right:20px;
+    padding-left:20px;
+    padding-bottom:20px;
+    color: #ffffff;
+    font-size:25px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.content4 ul
+{
+    position: absolute;
+    left:40%;
+}
+.content4 ul li  
+{
+ 
+    display:inline-block;
+    list-style:none; 
+    cursor: pointer;  
+}
+
+.content4 .Students
+{   
+    position:absolute;
+    left:100%;
+    background-color:rgb(34, 34, 34);
+    width:100px;
+    text-align: center;
+    border:1px solid #0083bd;
+    border-radius: 0 30px 30px 0 ;
+   
+}
+.content4 .StudentBackground   /*  on click background change */
+{
+    background-color:#0083bd;
+}
+.content4 .onclickStudent  /*  on click text color change */
+{
+    color:white;
+}
+
+.content4 .Teach
+{
+    background-color:rgb(34, 34, 34);
+    width:200px;
+    border:1px solid #0083bd;
+    text-align:center;
+    border-radius: 30px 0 0 30px;
+    
+}
+.content4 .TeachBackground /*  on click background change */
+{
+    background-color:#0083bd;    
+ 
+}
+.content4 .onclickteach /*  on click text color change */
+
+{
+    color:white;
+}
+
+.content4 ul li a
+{
+    text-decoration: none;
+    color:#0083bd;
+    font-family: 'Cairo', sans-serif;
+    font-size:15px;
+}
+
+
+                                                                                /* Service menu */
+
+.serv1S
+{
+position: absolute;
+left:60%;
+top:20%;
+height:70px;
+width:70px;
+opacity:0.6;
+}
+.serv2S
+{
+    position: absolute;
+    top:35%;
+    left:60%;
+    height:70px;
+    width:70px;
+    opacity:0.6;
+}
+.serv3S
+{
+    position: absolute;
+    top:50%;
+    left:60%;
+    height:70px;
+    width:70px;
+    opacity:0.6;
+}
+
+.serv4S
+{
+    position:absolute;
+    top:20%;
+    left:35%;
+    height:70px;
+    width:70px;
+    opacity:0.6;
+}
+.serv5S
+{
+    position:absolute;
+    top:35%;
+    left:35%;
+    height:70px;
+    width:70px;
+    opacity:0.6;
+}
+.serv6S
+{
+    position: absolute;
+    top:50%;
+    left:35%;
+    height:70px;
+    width:70px;
+    opacity:0.6;
+}
+.servStudent1 a
+{
+    text-decoration: none;
+}
+
+.service1
+{
+    color:white;
+    font-size:19px;
+    position:absolute;
+    top:28%;
+    left:56.3%;  
+    font-family: 'Cairo', sans-serif;
+    
+}
+.service2
+{
+    color:white;
+    font-size:19px;
+    position:absolute;
+    top:43%;
+    left:57%;  
+    font-family: 'Cairo', sans-serif;  
+}
+.service3
+
+{
+    color:white;
+    font-size:20px;
+    position:absolute;
+    top:58%;
+    left:58.3%;  
+    font-family: 'Cairo', sans-serif;  
+}
+.service4
+{
+    color:white;
+    font-size:20px;
+    position:absolute;
+    top:28%;
+    left:31.3%;  
+    font-family: 'Cairo', sans-serif;   
+}
+.service5
+{
+    color:white;
+    font-size:20px;
+    position: absolute;
+    top:43%;
+    left:35%;
+    font-family: 'Cairo', sans-serif;   
+}
+.service6
+{
+    color:white;
+    font-size:20px;
+    position: absolute;
+    top:58%;
+    left:32.3%;
+    font-family: 'Cairo', sans-serif;   
+}
+
+.hiddenImagesS
+{
+    visibility:hidden;
+}
+
+
+/* Section 4 End */
+
+.serv1T
+{
+position: absolute;
+left:60%;
+top:20%;
+height:70px;
+width:70px;
+opacity:0.6;
+}
+.serv2T
+{
+    position: absolute;
+    top:35%;
+    left:60%;
+    height:70px;
+    width:70px;
+    opacity:0.6;
+}
+.serv3T
+{
+    position: absolute;
+    top:50%;
+    left:60%;
+    height:70px;
+    width:70px;
+    opacity:0.6;
+}
+
+.serv4T
+{
+    position:absolute;
+    top:20%;
+    left:35%;
+    height:70px;
+    width:70px;
+    opacity:0.6;
+}
+.serv5T
+{
+    position:absolute;
+    top:35%;
+    left:35%;
+    height:70px;
+    width:70px;
+    opacity:0.6;
+}
+.serv6T
+{
+    position: absolute;
+    top:50%;
+    left:35%;
+    height:70px;
+    width:70px;
+    opacity:0.6;
+}
+.servTeach1 a
+{
+    text-decoration: none;
+}
+
+.service1T
+{
+    color:white;
+    font-size:19px;
+    position:absolute;
+    top:28%;
+    left:59%;  
+    font-family: 'Cairo', sans-serif;
+    
+}
+.service2T
+{
+    color:white;
+    font-size:19px;
+    position:absolute;
+    top:43%;
+    left:58.2%;  
+    font-family: 'Cairo', sans-serif;  
+}
+.service3T
+
+{
+    color:white;
+    font-size:20px;
+    position:absolute;
+    top:57.8%;
+    left:60%;  
+    font-family: 'Cairo', sans-serif;  
+}
+.service4T
+{
+    color:white;
+    font-size:20px;
+    position:absolute;
+    top:28%;
+    left:34.5%;  
+    font-family: 'Cairo', sans-serif;   
+}
+.service5T
+{
+    color:white;
+    font-size:20px;
+    position: absolute;
+    top:43%;
+    left:33%;
+    font-family: 'Cairo', sans-serif;   
+}
+.service6T
+{
+    color:white;
+    font-size:20px;
+    position: absolute;
+    top:58%;
+    left:32.3%;
+    font-family: 'Cairo', sans-serif;   
+}
+.servTeach
+{
+    visibility:hidden;
+}
+.servTeachActive
+{
+    visibility:visible;
+}
+
+.content4 button 
+{
+   
+    position: absolute;
+    top:65%;
+    left:42%;
+    background-color:#2C8182; 
+    width:230px;
+    height:50px;
+    border: 1px solid #00CCCC;
+    font-size:15px;
+    font-family: 'Tajawal', sans-serif;
+    color:white;
+    cursor: pointer;
+}
+.content4 button:hover
+{
+background-color:#007375;
+}
+
+/* Section 4 End*/
+
+/* Section 5 Start */
+.section5 .background5 
+{
+    position: relative;
+    background-color:#181717;
+    width:1519px;
+    height:98vh
+}
+.MainTitle5
+{
+    position: absolute;
+    top:15%;
+    left:56%;
+    color:lightgray;
+    font-size:57px;
+    font-family: 'Tajwal', sans-serif;
+    opacity:1;
+}
+.PhonePosition
+{
+    position:absolute;
+    top:25%;
+    left:19%;
+}
+.fingerprintPosition
+{
+    position: absolute;
+    top:32%;
+    left:62%;
+    height:50px;
+    width:50px;
+}
+.section5 .FingerTitle
+{
+    position: absolute;
+    top:35%;
+    left:43%;
+    color:lightgray;
+    font-size:23px;
+    font-family: 'Cairo', sans-serif;
+    opacity:0.8;
+}
+.appStore1
+{
+    position: absolute;
+    top:49%;
+    left:45%;
+    height:45px;
+    width:120px;
+}
+.Google1
+{
+    position: absolute;
+    top:45.4%;
+    left:52%;
+    height:90px;
+    width:120px; 
+}
+
+.quranPosition
+{
+    position: absolute;
+    top:32%;
+    left:83%;
+    height:75px;
+    width:75px;
+}
+.section5 .quranTitle
+{
+    position: absolute;
+    top:33%;
+    left:75%;
+    color:lightgray;
+    font-size:23px;
+    font-family: 'Cairo', sans-serif;
+    opacity:0.8;
+}
+.appStore2
+{
+    position: absolute;
+    top:45%;
+    left:73%;
+    height:45px;
+    width:120px;
+}
+.Google2
+{
+    position: absolute;
+    top:42.2%;
+    left:80.2%;
+    height:80px;
+    width:110px; 
+}
+
+.KSUAppPosition
+{
+    position: absolute;
+    top:65%;
+    left:83%;
+    height:65px;
+    width:65px;
+}
+.section5 .KSUAppTitle
+{
+    position: absolute;
+    top:66.2%;
+    left:65%;
+    color:lightgray;
+    font-size:23px;
+    font-family: 'Cairo', sans-serif;
+    opacity:0.8;
+}
+.appStore3
+{
+    position: absolute;
+    top:73%;
+    left:65%;
+    height:45px;
+    width:120px;
+}
+.Google3
+{
+    position: absolute;
+    top:70.3%;
+    left:72.2%;
+    height:80px;
+    width:120px; 
+}
+#footer
+{
+    position: relative;
+    background-color: #0079b1;
+    height:45.3vh;    
+}
+
+.footerTitle
+{
+    position: absolute;
+    top:18%;
+    right:14%;
+    color:white;
+    font-size:25px;
+    font-family: 'Cairo', sans-serif;
+    opacity:0.9;
+}
+.FN1 , .FN2 , .FN3 , .FN4 , .FN5 
+{
+    color:rgb(207, 207, 207);
+    font-size:13px;
+    font-family: 'Cairo', sans-serif;  
+    list-style:none;
+    text-decoration:none;
+}
+.FN1 
+{
+    position: absolute;
+    top:35%;
+    right:16%;
+}
+.FN2
+{
+    position: absolute;
+    top:43%;
+    right:16%;
+}
+.FN3
+{
+    position: absolute;
+    top:51%;
+    right:16%;
+}
+.FN4
+{
+    position: absolute;
+    top:59%;
+    right:16%;
+}
+.FN5
+{
+    position: absolute;
+    top:67%;
+    right:16%;
+}
+
+.FN1:hover , .FN2:hover , .FN3:hover , .FN4:hover , .FN5:hover
+{
+    color:rgb(0, 195, 255);
+   
+}
+
+        /* Second Section */
+ .Section2Title
+ {  
+    position: absolute;
+    top:18%;
+    right:37%;
+    color:white;
+    font-size:25px;
+    font-family: 'Cairo', sans-serif;
+    opacity:0.9;
+ }
+        
+.F2N1 , .F2N2 , .F2N3 , .F2N4 , .F2N5 
+{
+    color:rgb(207, 207, 207);
+    font-size:13px;
+    font-family: 'Cairo', sans-serif;  
+    list-style:none;
+    text-decoration:none;
+}
+.F2N1 
+{
+    position: absolute;
+    top:35%;
+    right:39%;
+}
+.F2N2
+{
+    position: absolute;
+    top:43%;
+    right:39%;
+}
+.F2N3
+{
+    position: absolute;
+    top:51%;
+    right:39%;
+}
+.F2N4
+{
+    position: absolute;
+    top:59%;
+    right:39%;
+}
+.F2N5
+{
+    position: absolute;
+    top:67%;
+    right:39%;
+}
+
+.F2N1:hover , .F2N2:hover , .F2N3:hover , .F2N4:hover , .F2N5:hover
+{
+    color:#00c3ff;  
+}
+
+.Section3Title
+
+{
+    position: absolute;
+    top:18%;
+    right:56%;
+    color:white;
+    font-size:25px;
+    font-family: 'Cairo', sans-serif;
+    opacity:0.9;
+}
+.F3N1 , .F3N2 , .F3N3 , .F3N4
+{
+    color:rgb(207, 207, 207);
+    font-size:14px;
+    font-family: 'Cairo', sans-serif;  
+    list-style:none;
+    text-decoration:none;
+}
+.F3N1
+{
+    position: absolute;
+    top:34%;
+    right:57.3%;
+}
+.F3N2
+{
+    position: absolute;
+    top:44%;
+    right:57.3%;
+}
+.F3N3
+{
+    position: absolute;
+    top:52%;
+    right:57.3%;
+}
+.F3N4
+{
+    position: absolute;
+    top:60%;
+    right:57.3%;
+}
+.PhoneIcon , .FaxIcon , .MailIcon , .BoxIcon 
+{
+    display:block;
+}
+.PhoneIcon
+{
+    position: absolute;
+    top:19%;
+    right:46%;
+    height:200px;
+    width:200px;
+}
+.FaxIcon
+{
+    position:absolute;
+    top:47%;
+    right:56.3%;
+    height:10px;
+    width:10px;
+}
+.MailIcon
+{
+    position: absolute;
+    bottom:31%;
+    left:40.8%;
+    height:200px;
+    width:200px;
+}
+.BoxIcon
+{
+    position:absolute;
+    top:60%;
+    left:42.5%;
+    height:25px;
+    width:25px;
+}
+
+.QS 
+{
+    position: absolute;
+    top:56%;
+    left:10%;
+    width:150px;
+    height:55px;
+}
+.youtube
+{
+    position: absolute;
+    bottom:8%;
+    left:19%;
+    width:300px;
+    height:300px;
+}
+.twitter
+{
+    position: absolute;
+    top:9%;
+    left:16%;
+    width:300px;
+    height:300px;
+}
+.facebook
+{
+    position: absolute;
+    top:9%;
+    left:26.5%;
+    width:300px;
+    height:300px;
+}
+
+#footer .FooterHr 
+{
+    position: absolute;
+    top:85%;
+    left:10%;
+    width:80%;
+    margin:0 auto;
+    background:black;
+}
+
+#footer .SaudHr
+{
+    color:rgb(207, 207, 207);
+    font-size:14px;
+    font-family: 'Cairo', sans-serif;  
+    list-style:none;
+    text-decoration:none;
+    position: absolute;
+    top:87%;
+    left:76%;
+}
+.FirstA , .SecondA , .ThirdA 
+{
+    color:rgb(207, 207, 207);
+    font-size:14px;
+    font-family: 'Cairo', sans-serif;  
+    list-style:none;
+    text-decoration:none;
+}
+.FirstA
+{
+    position: absolute;
+    top:87%;
+    left:20%;
+}
+.SecondA
+{
+    position:absolute;
+    top:87%;
+    left:27.6%;
+}
+.ThirdA 
+{
+    position: absolute;
+    top:87%;
+    left:32.8%;
+}
+.FirstA:hover , .SecondA:hover , .ThirdA:hover
+{
+    color:#00c3ff;  
+}
+/* Section 5 End*/
